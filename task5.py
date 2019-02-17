@@ -3,7 +3,7 @@
 a = str(input('Буква 1: '))
 b = str(input('Буква 2: '))
 
-print(f'Позиция буквы 1: {ord(a) - ord("a")}')
-print(f'Позиция буквы 2: {ord(b) - ord("a")}')
+print(f'Позиция буквы 1: {ord(a) - ord("a") + 1}')
+print(f'Позиция буквы 2: {ord(b) - ord("a") + 1}')
 print(f'Кол-во букв между: {ord(b) - ord(a) - 1}')
 
