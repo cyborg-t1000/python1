@@ -3,7 +3,7 @@ c = int(input('Искомая цифра: '))
 cnt = 0  # counter
 
 for i in range(1, n + 1):
-    num = int(input(f'Введи {i}-е число:'))
+    num = int(input(f'Введи {i}-е число: '))
 
     while True:
         if num % 10 == c:
