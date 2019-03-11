@@ -9,9 +9,9 @@ num = str(input('Введите целое число: '))
 size = hw6.get_size.show_size(num)
 
 result = num[::-1]
-size = hw6.get_size.show_size(result)
 
 print(result)
+size += hw6.get_size.show_size(result)
 
 hw6.get_size.print_size(size)
 
