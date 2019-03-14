@@ -10,7 +10,7 @@ def bubble_sort(array):
     while n < len(array):
         flag = True  # были ли перестановки за проход
         for i in range(len(array) - 1):
-            if array[i] > array[i + 1]:
+            if array[i] < array[i + 1]:
                 array[i], array[i + 1] = array[i + 1], array[i]
                 flag = False
         if flag:
